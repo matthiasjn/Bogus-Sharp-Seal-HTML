@@ -1,0 +1,76 @@
+.privacy-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.privacy-navlink {
+  display: contents;
+}
+.privacy-text {
+  top: 25px;
+  left: 0px;
+  right: 0px;
+  width: 644px;
+  height: 141px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-decoration: none;
+}
+.privacy-text1 {
+  font-size: 50px;
+}
+.privacy-text2 {
+  font-size: 50px;
+}
+.privacy-text3 {
+  font-size: 50px;
+}
+.privacy-text4 {
+  font-size: 30px;
+}
+@media(max-width: 991px) {
+  .privacy-text {
+    top: 42px;
+    left: 224px;
+  }
+}
+@media(max-width: 767px) {
+  .privacy-text {
+    top: 33px;
+    left: 0px;
+    right: 0px;
+    width: 619px;
+    margin: auto;
+    padding-top: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .privacy-text {
+    top: 24px;
+    right: 12px;
+    width: 433px;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .privacy-text1 {
+    font-size: 50px;
+  }
+  .privacy-text2 {
+    font-size: 50px;
+  }
+  .privacy-text3 {
+    font-size: 50px;
+  }
+  .privacy-text4 {
+    font-size: 32px;
+  }
+}
